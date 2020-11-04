@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Nuria Albelda es una fotógrafa y artista valenciana.">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" href="icons/airplane.svg">
+    <link rel="stylesheet" href="style.css">
+    <title>Nuria Albelda | Fotografía</title>
+</head>
+
+<body>
+    <!-- ========================= NAV SECTION Y HERO ========================= -->
+
+    <header class="main-head">
+        <nav>
+            <h1 id="logo">Nuria Albelda</h1>
+            <!-- input para simular botón de menú de JS con CSS puro. Pero al navegar a la sección no se cierra. Usamos JS para tener correcta funcionalidad.
+            <input type="checkbox" class="menu-check"> -->
+            <ul class="nav-links">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#work">Galería</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="burger">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-introduction flex">
+                <h2>Nuria Albelda <br>Fotografía </h2>
+                <p>
+                    Nuria Albelda es una artista valenciana que trabaja el proceso de creación de los proyectos
+                    escénicos y la fotografía.
+                </p>
+                <a href="#work">Galería</a>
+            </div>
+            <div class="hero-images">
+                <img class="hero-elena" src="img/elena-joy.png" alt="foto de Nuria Albelda">
+                <img src="img/plant1.png" alt="" class="plant1 plant">
+                <img src="img/plant2.png" alt="" class="plant2 plant">
+            </div>
+        </section>
+
+        <!-- ========================= ABOUT SECTION========================= -->
+        <section class="about" id="about">
+            <div class="about-image">
+                <h5>MINIMAL</h5>
+                <img src="img/about-image.png" alt="foto de retrato">
+            </div>
+            <div class="about-text flex">
+
+                <h2>Nuria Albelda</h2>
+
+                <div class="about-life">
+                    <h3>Sobre mí</h3>
+                    <p>Hola! Soy Nuria. Desde hace unos años me dedico profesionalmente a realizar fotografías viajando
+                        por el mundo. Me gusta considerarme una nómada digital porque no tengo casa ni un destino
+                        definido. Mi pasión mezcla la foto de retrato con la moda y la creación escénica.</p>
+                </div>
+
+                <div class="about-work">
+                    <h3>Mis fotos</h3>
+                    <p>Con mi fotografía intento transmitir una escena alrededor de la modelo y la prenda que viste. Una
+                        breve historia.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========================= GALERIA SECTION ========================= -->
+        <section class="gallery" id="work">
+            <header class="gallery-head">
+                <h2>Fotografía de moda</h2>
+                <p>Especialista en este producto fotográfico.</p>
+            </header>
+
+            <img class="gallery1" src="img/gallery-1.jpg" alt="mujer con americana">
+            <img class="gallery2" src="img/gallery-2.jpg" alt="mujer con abrigo">
+            <img class="gallery3" src="img/gallery-3.jpg" alt="mujer con camiseta">
+            <img class="gallery4" src="img/gallery-4.jpg" alt="mujer con chaqueta">
+        </section>
+
+        <!-- ========================= CONTACT SECTION ========================= -->
+
+        <section class="contact" id="contact">
+            <div class="form-wrapper flex">
+                <h2>Get in <br> <span>touch.</span></h2>
+                <form action="">
+                    <label for="email">Tu email:</label>
+                    <input type="email" id="email required">
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+            <img src="img/contact-image.jpg" alt="nuria albelda de espaldas">
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <h4>Nuria Albelda &copy; 2020</h4>
+        <ul>
+            <li><a href="#"><img src="img/youtube-symbol 1.svg" alt="youtube-social-media"></a></li>
+            <li><a href="#"><img src="img/twitter 1.svg" alt="twitter-social-media"></a></li>
+            <li><a href="#"><img src="img/instagram 1.svg" alt="instagram-social-media"></a></li>
+        </ul>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
