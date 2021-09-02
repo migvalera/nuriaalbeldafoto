@@ -32,10 +32,8 @@ _Proyecto elaborado por:_
 
 ## ¡Gracias por ver este proyecto! 🎁 
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* Comenta a otros sobre este proyecto 📢🤓
+
 
 
 ---
